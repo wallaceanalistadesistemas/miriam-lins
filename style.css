@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #000202;
+    /*
+    Colocado transparencia na barra de menus.
+    */
+    background-color: #30c6e05e;  
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding:20px 0;
+    border-bottom:1px solid rgb(200,200,200); 
+}
+
+.img{
+   width: 100%;
+   margin: px 0;
+   text-align: center;
+}
+
+.img-rodape{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+/*Muda o titulo saude em primeiro lugar*/
+.menu-itens h2{
+    color: #020003;
+}
+
+/*Muda o titulo saude em primeiro lugar*/
+.menu-itens p{
+    color:#080000;
+}
+
+.logo{
+    color: #050505;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+    
+}
+
+.menu{
+    width:80% ;
+    text-align: right;
+}
+.menu a{
+    color: #050200;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition:0.1s;
+}
+
+.menu a:hover{
+    color: #ff0000;
+}
+
+.menu .btn-menu{
+    background-color:#ff00ea ;
+    display: inline-block;
+    padding:8px 16px;
+    color: rgb(10, 0, 0);
+    border-radius:80px;
+}
+
+.menu .btn-menu:hover{
+    background-color: #055cfe;
+    color: white;
+}
+
+/*
+Section Main
+*/
+
+section.main{
+    background-image: url;
+    min-height: 500;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+   width: 100%;
+   margin: 60px 0;
+   text-align: center;
+
+}
+
+.main__cta h2{
+    color: #000102;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: #ffffff;
+    font-size: 19px;
+    margin: 10px 0;
+    background-color: #00c3ff;
+    padding:10px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta button{
+    background-color: #1b02fc;
+    display: inline-block;
+    padding: 8px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.main__cta button:hover{
+    background-color: #592ebc;
+    color: white;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-sigle{
+   background-color: #ffffff;
+   width: 24%;
+   margin-right: 1%;
+   padding: 50px 100px;
+}
+/*
+Menu superior, muda tamanho do banner.
+*/
+header{
+    background-image: url(img/komodo-slide-22.jpg);
+    padding: 1px;
+    margin-top: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.diferencial-sigle i{
+    color: #ffffff;
+}
+
+.diferencial-sigle p{
+    color: rgb(2, 2, 2);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+    background-color: #03fa627e;
+    
+}
+
+.chamada-sobre h2{
+    color:#000000;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin:10px 0;  
+}
+
+.conteudo-sobre{
+   display: flex; 
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 0%;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.conteudo-sobre span{
+    margin-bottom: 10px;
+}
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width:22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #000000;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+}
+
+.conquista-single img{
+    max-width: 100%;
+}
+
+/*Muda cor da barra e titulo ''Aqui você encontra nossos parceiros''*/
+.conquista-h2{
+    
+    text-align: center;
+    color: rgb(0, 3, 8);
+    
+}
+
+
+/*MENU TOPO CORRETORA MIRIAM LINS*/
+.menu-itens{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(93, 221, 146, 0.349);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    
+}
+
+.menu-intens.show{
+    display: block;
+}
+
+.menu-itens a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+section.sobre-empreendedor{
+    padding: 40px 0;
+}
+
+.sobre-empreendedor-img{
+    width: 50%;
+}
+
+.sobre-empreendedor-img img{max-width: 100%;}
+
+.sobre-empreendedor-content{
+    width: 50%;
+    padding: 0 50px;
+}
+
+.sobre-empreendedor-content h2{
+    color: #124265;
+    margin-bottom: 20px; 
+}
+
+.sobre-empreendedor-content p{
+    color:#000000 ;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.diferencial-sigle h2{
+    color: #173f52;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/*
+Imagem dos cards
+*/
+.diferencial-sigle img{
+    background-image: url(img/);
+    border-radius: 10px;
+    width: 150%;
+    height: 150px;
+    display: flex;
+    cursor: pointer;
+    /*Muda cor da borda dos cards*/
+    border-bottom:3px solid rgb(0, 132, 255);
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+/*Tamanho da imagem do slide.*/
+.slide img{
+    width: 400px;
+}
+
+.manual-navigation{
+   position: absolute;
+   width: 800px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #ffffff;
+}
+
+#radio1:checked ~ .first{
+    margin-left:0;
+}
+
+#radio2:checked ~ .first{
+    margin-left:-25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left:-50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left:-75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left:-100%;
+}
+
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #ffffff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ffffff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ffffff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ffffff;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #ffffff;
+}
+   
+
+.considerations{
+    color: rgb(5, 5, 5);
+    font-size: 10px;
+    padding: 0px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px 0;
+    background-color: #000000;
+    text-align: center;
+    font-style: arial;
+    background-color: rgb(255, 255, 255);
+}
+
